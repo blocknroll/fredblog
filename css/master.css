@@ -14,6 +14,7 @@ main {
   border: 2px solid red;
 }
 
+/* CARDS ***********************/
 .card {
   border: 1px solid gray;
   margin-bottom: 40px;
@@ -27,7 +28,8 @@ main {
   border: 1px solid orange;
 }
 
-.card img {
+.card img,
+.post img {
   max-width: 100%;
 }
 
@@ -35,6 +37,36 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/* POSTS ***********************/
+.post {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.post-image {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-style: italic;
+  color: gray;
+}
+
+.post-title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.post-content {
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 h1 {
