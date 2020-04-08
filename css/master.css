@@ -45,10 +45,11 @@ body {
 
 /* POSTS ***********************/
 .post {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   max-width: 900px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .post-image {
@@ -66,11 +67,13 @@ body {
   flex-direction: column;
   margin: 0 auto;
   max-width: 400px;
+  align-items: center;
 }
 
 .post-content {
   max-width: 400px;
   margin: 0 auto;
+  text-align: justify;
 }
 
 header {
@@ -104,6 +107,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 40px 0 0;
 }
 
 footer p {
