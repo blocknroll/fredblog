@@ -59,7 +59,7 @@ body {
   justify-content: space-between;
   font-style: italic;
   color: gray;
-  margin: 0 auto 20px;
+  margin: 20px auto;
 }
 
 .post-title {
@@ -71,9 +71,15 @@ body {
 }
 
 .post-content {
-  max-width: 400px;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  align-items: center;
+}
+
+.post-content p {
   text-align: justify;
+  max-width: 400px;
 }
 
 header {

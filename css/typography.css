@@ -10,7 +10,7 @@ h1 {
 h2 {
   font-family: 'Barlow Condensed', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 h3 {
@@ -33,7 +33,10 @@ a {
 }
 
 .caption {
-  margin: 0;
+  font-size: 1.0em;
+  text-align: center;
+  max-width: 400px;
+  color: rgb(88,89,91);
 }
 
 .button {
@@ -52,5 +55,12 @@ a {
 
 .date {
   color: gray;
-  font-size: .9em;
+  font-size: 1.0em;
+}
+
+.quote {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 4.0em;
+  color: rgb(72,114,162);
 }
