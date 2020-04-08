@@ -100,7 +100,16 @@ nav {
 footer {
   padding: 20px;
   background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
   color: white;
+  font-size: .8em;
+  margin: 0;
 }
 
 
