@@ -61,6 +61,8 @@ a {
 .quote {
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
-  font-size: 4.0em;
+  font-size: 3.2em;
   color: rgb(72,114,162);
+  text-align: center;
+  margin: 0 auto 40px;
 }
