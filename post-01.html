@@ -7,6 +7,7 @@
     <meta name="description" content="A sample blog template created for the
                Udacity Front End Web Developer Nanodegree program.">
     <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Barlow+Condensed:wght@400;600;900&family=Barlow:wght@200;300;400;900&display=swap" rel="stylesheet">
   </head>
 
 
@@ -19,10 +20,12 @@
     </header>
 
     <nav>
-      <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
-      </ul>
+      <div class="nav-button">
+        <a href="index.html">home</a>
+      </div>
+      <div class="nav-button">
+        <a href="about.html">about</a>
+      </div>
     </nav>
 
     <main>
@@ -31,15 +34,13 @@
 
         <div class="post-image">
           <img src="images/paraglide-1st-flight.jpg" alt="Paragliding at sunset.">
-          <p>caption</p>
+          <p class="caption">caption</p>
         </div>
 
         <div class="post-title">
           <h1>Post #1</h1>
-          <h2>By Fred Block</h2>
-          <h3>Head Honcho at FredCo</h3>
-          <p>bio goes here...</p>
-          <img src="images/fb.jpg" alt="Fred Block portrait photo">
+          <h2 class="author">By Fred Block</h2>
+          <p class="date">08/2019</p>
         </div>
 
         <div class="post-content">
@@ -53,6 +54,7 @@
             Varial yeah heel flip casper manual. Kingpin smith grind backside
             stalefish rail OJ IIs.
           </p>
+
           <p>
             Kickturn fastplant griptape bank. Finger flip bank rock and roll
             rails. Kickturn Kevin Ancell dude bank indy grab. Dude nosegrind
@@ -66,7 +68,7 @@
           </p>
         </div>
 
-        <a href="index.html">home</a>
+        <a class="button" href="index.html">home</a>
       </article>
 
     </main>
