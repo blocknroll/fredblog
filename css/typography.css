@@ -65,4 +65,5 @@ a {
   color: rgb(72,114,162);
   text-align: center;
   margin: 0 auto 40px;
+  max-width: 700px;
 }
