@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "typography.css";
+@import "buttons.css";
 
 body {
   width: 96%;
@@ -87,22 +88,6 @@ header {
 
 header img {
   max-height: 60px;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: gray;
-  padding: 10px;
-}
-
-.nav-button a {
-  padding: 4px;
-  width: 100px;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  margin: 0 10px;
 }
 
 footer {
