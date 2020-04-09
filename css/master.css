@@ -97,8 +97,7 @@ footer p {
 }
 
 .post-content p {
-  text-align: justify;
-  max-width: 400px;
+  width: 400px;
 }
 
 img.portrait {
