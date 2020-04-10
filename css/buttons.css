@@ -16,8 +16,9 @@ button {
   text-decoration: none;
   background: rgb(204,204,204);  /* 20% gray */
   color: #fff;
-  font-family: 'Barlow', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Barlow", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1em;
+  font-weight: 500;
   line-height: 1;
   cursor: pointer;
   text-align: center;
