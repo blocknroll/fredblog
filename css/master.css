@@ -62,7 +62,6 @@ footer p {
 }
 
 
-
 /* POSTS ***********************/
 .post {
   display: flex;
@@ -103,6 +102,26 @@ footer p {
 img.portrait {
   max-width: 300px;
   margin: 40px 0 40px;
+}
+
+
+/* ABOUT ***********************/
+.about {
+  border: 1px solid rgb(204,204,204);  /* 20% gray */
+  font-size: .9em;
+  color: rgb(128,128,128);
+  padding: 20px 0 0 20px;
+  margin: 20px auto 60px;
+}
+
+.about img {
+  height: 60px;
+  margin: 0 auto 10px;
+}
+
+.about a {
+  color: rgb(128,128,128);
+  text-decoration: underline;
 }
 
 
