@@ -104,6 +104,15 @@ img.portrait {
   margin: 40px 0 40px;
 }
 
+.related-posts {
+  margin-bottom: 40px;
+}
+
+.related-posts p {
+  color: rgb(77,77,77);
+  margin: 10px auto;
+}
+
 
 /* ABOUT ***********************/
 .about {
@@ -119,7 +128,8 @@ img.portrait {
   margin: 0 auto 10px;
 }
 
-.about a {
+.about a,
+.related-posts a {
   color: rgb(128,128,128);
   text-decoration: underline;
 }
