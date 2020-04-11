@@ -91,13 +91,13 @@ footer p {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  /* align-items: center; */
 }
 
 .post-content p {
-  min-width: 70%; /*****************/
-  max-width: 400px; /*****************/
+  min-width: 70%;
+  max-width: 400px;
   margin: 0 auto 20px;
+  padding: 0 10px;
 }
 
 .post-content a {
@@ -110,7 +110,6 @@ img.portrait {
 }
 
 .related-posts {
-  /* margin-bottom: 40px; */
   margin: 20px auto 60px;
 }
 
@@ -142,6 +141,7 @@ img.portrait {
 
 .about p {
   margin: 0;
+  padding: 0;
 }
 
 
