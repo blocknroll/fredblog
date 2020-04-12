@@ -145,7 +145,7 @@ footer p {
   margin: 0 auto 10px;
 }
 
-img.portrait {
+.portrait {
   margin: 40px 0 40px;
   max-width: 300px;
 }
@@ -160,6 +160,22 @@ img.portrait {
   margin: 0;
   padding: 0;
 }
+
+
+/* BIO ****************************/
+.bio {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.bio-content p {
+  max-width: 400px;
+  padding: 0 10px;
+}
+
 
 
 /* MEDIA QUERIES *****************************/
