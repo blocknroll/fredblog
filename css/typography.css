@@ -1,55 +1,37 @@
 h1 {
-  font-family: "Barlow Condensed", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 700;
   color: rgb(77,77,77);
+  font-family: "Barlow Condensed", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 2.1em;
-  text-transform: uppercase;
+  font-weight: 700;
   padding: 0 0 20px;
+  text-transform: uppercase;
 }
 
 h2 {
   font-family: "Barlow Condensed", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 600;
   font-size: 1.3em;
+  font-weight: 600;
 }
 
 h3 {
-  font-family: "Barlow Condensed", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 400;
   color: rgb(128,128,128);
+  font-family: "Barlow Condensed", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.1em;
+  font-weight: 400;
   margin: 10px 0 30px;
   text-decoration: underline;
 }
 
 p {
   font-family: "Barlow", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 300;
-  margin: 0 0 20px;
-  line-height: 1.6;
   font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0 0 20px;
 }
 
 a {
   font-family: "Barlow", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   text-decoration: none;
-}
-
-p.caption {
-  font-size: 1.0em;
-  text-align: center;
-  max-width: 400px;
-  color: rgb(128,128,128);
-  font-style: italic;
-}
-
-.quote {
-  font-family: "Amatic SC", cursive;
-  font-weight: 700;
-  font-size: 3.2em;
-  color: rgb(72,114,162);
-  text-align: center;
-  margin: 0 auto 40px;
-  max-width: 700px;
 }
