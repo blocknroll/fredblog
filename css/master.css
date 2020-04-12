@@ -131,8 +131,8 @@ footer p {
 }
 
 
-/* ABOUT ***********************/
-.about {
+/* BIO ***********************/
+.bio {
   border: 1px solid rgb(204,204,204);  /* 20% gray */
   color: rgb(128,128,128);
   font-size: .9em;
@@ -140,30 +140,25 @@ footer p {
   padding: 20px;
 }
 
-.about img {
+.bio img {
   height: 60px;
   margin: 0 auto 10px;
 }
 
-.portrait {
-  margin: 40px 0 40px;
-  max-width: 300px;
-}
-
-.about a,
+.bio a,
 .related-posts a {
   color: rgb(128,128,128);
   text-decoration: underline;
 }
 
-.about p {
+.bio p {
   margin: 0;
   padding: 0;
 }
 
 
-/* BIO ****************************/
-.bio {
+/* ABOUT ****************************/
+.about {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -171,7 +166,12 @@ footer p {
   max-width: 900px;
 }
 
-.bio-content p {
+.portrait {
+  margin: 40px 0 40px;
+  max-width: 300px;
+}
+
+.about-content p {
   max-width: 400px;
   padding: 0 10px;
 }
