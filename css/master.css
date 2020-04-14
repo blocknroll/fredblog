@@ -160,6 +160,10 @@ figcaption {
   padding: 0;
 }
 
+strong {
+  font-weight: bold;
+}
+
 
 /* ABOUT ****************************/
 .about {
