@@ -10,7 +10,7 @@ h1 {
 h2 {
   font-family: "Barlow Condensed", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.3em;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 h3 {
@@ -34,4 +34,8 @@ a {
   font-family: "Barlow", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   text-decoration: none;
+}
+
+em {
+  font-style: italic;
 }
